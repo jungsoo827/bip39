@@ -5,10 +5,13 @@ homepage: https://github.com/anicdh/bip39
 author: anicdh <email@example.com>
 
 environment:
-  sdk: '>=2.0.0-dev.58.0 <3.0.0'
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  pointycastle: ^1.0.0-rc2
+  pointycastle:
+    git:
+      url: https://github.com/jungsoo827/pointycastle.git
+      ref: master
   hex: ^0.1.2
   crypto: ^2.0.3
 dev_dependencies:
