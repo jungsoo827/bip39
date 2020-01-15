@@ -16,3 +16,5 @@ dependencies:
   crypto: ^2.0.3
 dev_dependencies:
   test: ^1.0.0
+#  pointycastle:
+#    path: ../pointycastle-jungsoo827
